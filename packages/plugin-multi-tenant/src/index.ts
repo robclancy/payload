@@ -84,6 +84,7 @@ export const multiTenantPlugin =
         tenantsArrayField({
           ...(pluginConfig?.tenantsArrayField || {}),
           tenantsCollectionSlug,
+          tenantFieldName,
         }),
       )
     }
